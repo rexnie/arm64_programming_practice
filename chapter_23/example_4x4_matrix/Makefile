@@ -3,3 +3,6 @@ all:
 
 clean:
 	rm matrix_4x4
+
+run:
+	./matrix_4x4
