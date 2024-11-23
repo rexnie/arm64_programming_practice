@@ -1,0 +1,5 @@
+# gdb-multiarch -x gdb.script benos.elf
+target remote localhost:1234
+layout regs
+b _start
+c
